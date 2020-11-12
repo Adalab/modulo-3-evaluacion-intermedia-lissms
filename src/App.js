@@ -7,7 +7,7 @@ const App = () => {
   console.log("data", data);
   return (
     <div>
-      <h1 className="title">Mi lista de pokemon</h1>
+      <h1 className="title">Mi lista de pokemons</h1>
       <PokemonList pokemons={data} />
     </div>
   );
