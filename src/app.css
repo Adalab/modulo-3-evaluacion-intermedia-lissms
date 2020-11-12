@@ -1,2 +1,5 @@
-.container-pkList {
+.title {
+  display: flex;
+  justify-content: center;
+  color: #399494;
 }

@@ -6,7 +6,8 @@ import app from "./app.css";
 const App = () => {
   console.log("data", data);
   return (
-    <div className="container-pkList">
+    <div>
+      <h1 className="title">Mi lista de pokemon</h1>
       <PokemonList pokemons={data} />
     </div>
   );
