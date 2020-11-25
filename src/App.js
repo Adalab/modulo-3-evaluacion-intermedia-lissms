@@ -1,7 +1,7 @@
 import React from "react";
 import PokemonList from "./components/PokemonList.jsx";
 import data from "./data/data.js";
-import app from "./app.css";
+import "./app.css";
 
 const App = () => {
   console.log("data", data);

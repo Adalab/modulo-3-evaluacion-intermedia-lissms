@@ -1,5 +1,6 @@
+import PropTypes from "prop-types";
 import React from "react";
-import pokemon from "./pokemon.css";
+import "./pokemon.css";
 
 function Pokemon(props) {
   const typesPok = props.types.map((type, i) => {
@@ -17,5 +18,11 @@ function Pokemon(props) {
     </div>
   );
 }
+
+Pokemon.propTypes = {
+  name: PropTypes.string,
+  img: PropTypes.string,
+  types: PropTypes.array,
+};
 
 export default Pokemon;
